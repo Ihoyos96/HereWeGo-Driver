@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C3659362B6C122D006952FE /* NIO in Frameworks */ = {isa = PBXBuildFile; productRef = 7C3659352B6C122D006952FE /* NIO */; };
+		7C3659382B6C122D006952FE /* NIOCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7C3659372B6C122D006952FE /* NIOCore */; };
+		7C36593A2B6C122D006952FE /* NIOWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 7C3659392B6C122D006952FE /* NIOWebSocket */; };
+		7C36593C2B6C13A8006952FE /* NIOHTTP1 in Frameworks */ = {isa = PBXBuildFile; productRef = 7C36593B2B6C13A8006952FE /* NIOHTTP1 */; };
+		7C36593E2B6C13A8006952FE /* NIOPosix in Frameworks */ = {isa = PBXBuildFile; productRef = 7C36593D2B6C13A8006952FE /* NIOPosix */; };
+		7C3659422B6C240A006952FE /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = 7C3659412B6C240A006952FE /* NIOFoundationCompat */; };
+		7C56592D2B6A94470007535C /* HereWeGoDriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56592C2B6A94470007535C /* HereWeGoDriverApp.swift */; };
+		7C56592F2B6A94470007535C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56592E2B6A94470007535C /* MainView.swift */; };
+		7C5659312B6A94480007535C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5659302B6A94480007535C /* Assets.xcassets */; };
+		7C5659342B6A94480007535C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5659332B6A94480007535C /* Preview Assets.xcassets */; };
+		7C5659362B6A94480007535C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5659352B6A94480007535C /* Persistence.swift */; };
+		7C5659392B6A94480007535C /* HereWeGoDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C5659372B6A94480007535C /* HereWeGoDriver.xcdatamodeld */; };
+		7C5659432B6A94480007535C /* HereWeGoDriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5659422B6A94480007535C /* HereWeGoDriverTests.swift */; };
+		7C56594D2B6A94480007535C /* HereWeGoDriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56594C2B6A94480007535C /* HereWeGoDriverUITests.swift */; };
+		7C56594F2B6A94480007535C /* HereWeGoDriverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56594E2B6A94480007535C /* HereWeGoDriverUITestsLaunchTests.swift */; };
+		7C56595E2B6A97E00007535C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56595D2B6A97E00007535C /* Models.swift */; };
+		7C5659602B6A982E0007535C /* TripRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56595F2B6A982E0007535C /* TripRequestsView.swift */; };
+		7C5659632B6AABD60007535C /* BeforeProduction.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5659622B6AABD60007535C /* BeforeProduction.rtf */; };
+		7C5659662B6AB9A40007535C /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5659652B6AB9A40007535C /* WebSocketClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C56593F2B6A94480007535C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C5659212B6A94470007535C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C5659282B6A94470007535C;
+			remoteInfo = HereWeGoDriver;
+		};
+		7C5659492B6A94480007535C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C5659212B6A94470007535C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C5659282B6A94470007535C;
+			remoteInfo = HereWeGoDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C5659292B6A94470007535C /* HereWeGoDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HereWeGoDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C56592C2B6A94470007535C /* HereWeGoDriverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereWeGoDriverApp.swift; sourceTree = "<group>"; };
+		7C56592E2B6A94470007535C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7C5659302B6A94480007535C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C5659332B6A94480007535C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C5659352B6A94480007535C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7C5659382B6A94480007535C /* HereWeGoDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HereWeGoDriver.xcdatamodel; sourceTree = "<group>"; };
+		7C56593E2B6A94480007535C /* HereWeGoDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HereWeGoDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5659422B6A94480007535C /* HereWeGoDriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereWeGoDriverTests.swift; sourceTree = "<group>"; };
+		7C5659482B6A94480007535C /* HereWeGoDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HereWeGoDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C56594C2B6A94480007535C /* HereWeGoDriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereWeGoDriverUITests.swift; sourceTree = "<group>"; };
+		7C56594E2B6A94480007535C /* HereWeGoDriverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereWeGoDriverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C56595D2B6A97E00007535C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7C56595F2B6A982E0007535C /* TripRequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRequestsView.swift; sourceTree = "<group>"; };
+		7C5659622B6AABD60007535C /* BeforeProduction.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = BeforeProduction.rtf; sourceTree = "<group>"; };
+		7C5659642B6AAC150007535C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7C5659652B6AB9A40007535C /* WebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C5659262B6A94470007535C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C36593E2B6C13A8006952FE /* NIOPosix in Frameworks */,
+				7C3659382B6C122D006952FE /* NIOCore in Frameworks */,
+				7C3659362B6C122D006952FE /* NIO in Frameworks */,
+				7C36593A2B6C122D006952FE /* NIOWebSocket in Frameworks */,
+				7C3659422B6C240A006952FE /* NIOFoundationCompat in Frameworks */,
+				7C36593C2B6C13A8006952FE /* NIOHTTP1 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C56593B2B6A94480007535C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5659452B6A94480007535C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C5659202B6A94470007535C = {
+			isa = PBXGroup;
+			children = (
+				7C56592B2B6A94470007535C /* HereWeGoDriver */,
+				7C5659412B6A94480007535C /* HereWeGoDriverTests */,
+				7C56594B2B6A94480007535C /* HereWeGoDriverUITests */,
+				7C56592A2B6A94470007535C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C56592A2B6A94470007535C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C5659292B6A94470007535C /* HereWeGoDriver.app */,
+				7C56593E2B6A94480007535C /* HereWeGoDriverTests.xctest */,
+				7C5659482B6A94480007535C /* HereWeGoDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C56592B2B6A94470007535C /* HereWeGoDriver */ = {
+			isa = PBXGroup;
+			children = (
+				7C5659642B6AAC150007535C /* Info.plist */,
+				7C56592C2B6A94470007535C /* HereWeGoDriverApp.swift */,
+				7C56592E2B6A94470007535C /* MainView.swift */,
+				7C5659352B6A94480007535C /* Persistence.swift */,
+				7C5659652B6AB9A40007535C /* WebSocketClient.swift */,
+				7C56595D2B6A97E00007535C /* Models.swift */,
+				7C56595F2B6A982E0007535C /* TripRequestsView.swift */,
+				7C5659302B6A94480007535C /* Assets.xcassets */,
+				7C5659322B6A94480007535C /* Preview Content */,
+				7C5659372B6A94480007535C /* HereWeGoDriver.xcdatamodeld */,
+				7C5659622B6AABD60007535C /* BeforeProduction.rtf */,
+			);
+			path = HereWeGoDriver;
+			sourceTree = "<group>";
+		};
+		7C5659322B6A94480007535C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C5659332B6A94480007535C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C5659412B6A94480007535C /* HereWeGoDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C5659422B6A94480007535C /* HereWeGoDriverTests.swift */,
+			);
+			path = HereWeGoDriverTests;
+			sourceTree = "<group>";
+		};
+		7C56594B2B6A94480007535C /* HereWeGoDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C56594C2B6A94480007535C /* HereWeGoDriverUITests.swift */,
+				7C56594E2B6A94480007535C /* HereWeGoDriverUITestsLaunchTests.swift */,
+			);
+			path = HereWeGoDriverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C5659282B6A94470007535C /* HereWeGoDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5659522B6A94480007535C /* Build configuration list for PBXNativeTarget "HereWeGoDriver" */;
+			buildPhases = (
+				7C5659252B6A94470007535C /* Sources */,
+				7C5659262B6A94470007535C /* Frameworks */,
+				7C5659272B6A94470007535C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HereWeGoDriver;
+			packageProductDependencies = (
+				7C3659352B6C122D006952FE /* NIO */,
+				7C3659372B6C122D006952FE /* NIOCore */,
+				7C3659392B6C122D006952FE /* NIOWebSocket */,
+				7C36593B2B6C13A8006952FE /* NIOHTTP1 */,
+				7C36593D2B6C13A8006952FE /* NIOPosix */,
+				7C3659412B6C240A006952FE /* NIOFoundationCompat */,
+			);
+			productName = HereWeGoDriver;
+			productReference = 7C5659292B6A94470007535C /* HereWeGoDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C56593D2B6A94480007535C /* HereWeGoDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5659552B6A94480007535C /* Build configuration list for PBXNativeTarget "HereWeGoDriverTests" */;
+			buildPhases = (
+				7C56593A2B6A94480007535C /* Sources */,
+				7C56593B2B6A94480007535C /* Frameworks */,
+				7C56593C2B6A94480007535C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C5659402B6A94480007535C /* PBXTargetDependency */,
+			);
+			name = HereWeGoDriverTests;
+			productName = HereWeGoDriverTests;
+			productReference = 7C56593E2B6A94480007535C /* HereWeGoDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C5659472B6A94480007535C /* HereWeGoDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5659582B6A94480007535C /* Build configuration list for PBXNativeTarget "HereWeGoDriverUITests" */;
+			buildPhases = (
+				7C5659442B6A94480007535C /* Sources */,
+				7C5659452B6A94480007535C /* Frameworks */,
+				7C5659462B6A94480007535C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C56594A2B6A94480007535C /* PBXTargetDependency */,
+			);
+			name = HereWeGoDriverUITests;
+			productName = HereWeGoDriverUITests;
+			productReference = 7C5659482B6A94480007535C /* HereWeGoDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C5659212B6A94470007535C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7C5659282B6A94470007535C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7C56593D2B6A94480007535C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7C5659282B6A94470007535C;
+					};
+					7C5659472B6A94480007535C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7C5659282B6A94470007535C;
+					};
+				};
+			};
+			buildConfigurationList = 7C5659242B6A94470007535C /* Build configuration list for PBXProject "HereWeGoDriver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C5659202B6A94470007535C;
+			packageReferences = (
+				7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */,
+			);
+			productRefGroup = 7C56592A2B6A94470007535C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C5659282B6A94470007535C /* HereWeGoDriver */,
+				7C56593D2B6A94480007535C /* HereWeGoDriverTests */,
+				7C5659472B6A94480007535C /* HereWeGoDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C5659272B6A94470007535C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5659342B6A94480007535C /* Preview Assets.xcassets in Resources */,
+				7C5659632B6AABD60007535C /* BeforeProduction.rtf in Resources */,
+				7C5659312B6A94480007535C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C56593C2B6A94480007535C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5659462B6A94480007535C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C5659252B6A94470007535C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5659602B6A982E0007535C /* TripRequestsView.swift in Sources */,
+				7C5659662B6AB9A40007535C /* WebSocketClient.swift in Sources */,
+				7C5659362B6A94480007535C /* Persistence.swift in Sources */,
+				7C5659392B6A94480007535C /* HereWeGoDriver.xcdatamodeld in Sources */,
+				7C56595E2B6A97E00007535C /* Models.swift in Sources */,
+				7C56592F2B6A94470007535C /* MainView.swift in Sources */,
+				7C56592D2B6A94470007535C /* HereWeGoDriverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C56593A2B6A94480007535C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5659432B6A94480007535C /* HereWeGoDriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5659442B6A94480007535C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C56594F2B6A94480007535C /* HereWeGoDriverUITestsLaunchTests.swift in Sources */,
+				7C56594D2B6A94480007535C /* HereWeGoDriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C5659402B6A94480007535C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C5659282B6A94470007535C /* HereWeGoDriver */;
+			targetProxy = 7C56593F2B6A94480007535C /* PBXContainerItemProxy */;
+		};
+		7C56594A2B6A94480007535C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C5659282B6A94470007535C /* HereWeGoDriver */;
+			targetProxy = 7C5659492B6A94480007535C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7C5659502B6A94480007535C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C5659512B6A94480007535C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C5659532B6A94480007535C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HereWeGoDriver/Preview Content\"";
+				DEVELOPMENT_TEAM = HJD93AMRBQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HereWeGoDriver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.driver.HereWeGoDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C5659542B6A94480007535C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HereWeGoDriver/Preview Content\"";
+				DEVELOPMENT_TEAM = HJD93AMRBQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HereWeGoDriver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.driver.HereWeGoDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C5659562B6A94480007535C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJD93AMRBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.driver.HereWeGoDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HereWeGoDriver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HereWeGoDriver";
+			};
+			name = Debug;
+		};
+		7C5659572B6A94480007535C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJD93AMRBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.driver.HereWeGoDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HereWeGoDriver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HereWeGoDriver";
+			};
+			name = Release;
+		};
+		7C5659592B6A94480007535C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJD93AMRBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.driver.HereWeGoDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HereWeGoDriver;
+			};
+			name = Debug;
+		};
+		7C56595A2B6A94480007535C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJD93AMRBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.driver.HereWeGoDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HereWeGoDriver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C5659242B6A94470007535C /* Build configuration list for PBXProject "HereWeGoDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5659502B6A94480007535C /* Debug */,
+				7C5659512B6A94480007535C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5659522B6A94480007535C /* Build configuration list for PBXNativeTarget "HereWeGoDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5659532B6A94480007535C /* Debug */,
+				7C5659542B6A94480007535C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5659552B6A94480007535C /* Build configuration list for PBXNativeTarget "HereWeGoDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5659562B6A94480007535C /* Debug */,
+				7C5659572B6A94480007535C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5659582B6A94480007535C /* Build configuration list for PBXNativeTarget "HereWeGoDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5659592B6A94480007535C /* Debug */,
+				7C56595A2B6A94480007535C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.63.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C3659352B6C122D006952FE /* NIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIO;
+		};
+		7C3659372B6C122D006952FE /* NIOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOCore;
+		};
+		7C3659392B6C122D006952FE /* NIOWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOWebSocket;
+		};
+		7C36593B2B6C13A8006952FE /* NIOHTTP1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOHTTP1;
+		};
+		7C36593D2B6C13A8006952FE /* NIOPosix */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOPosix;
+		};
+		7C3659412B6C240A006952FE /* NIOFoundationCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C3659342B6C122D006952FE /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOFoundationCompat;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		7C5659372B6A94480007535C /* HereWeGoDriver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C5659382B6A94480007535C /* HereWeGoDriver.xcdatamodel */,
+			);
+			currentVersion = 7C5659382B6A94480007535C /* HereWeGoDriver.xcdatamodel */;
+			path = HereWeGoDriver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7C5659212B6A94470007535C /* Project object */;
+}
