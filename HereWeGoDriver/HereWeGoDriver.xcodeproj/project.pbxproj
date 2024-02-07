@@ -25,7 +25,7 @@
 		7C56595E2B6A97E00007535C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56595D2B6A97E00007535C /* Models.swift */; };
 		7C5659602B6A982E0007535C /* TripRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56595F2B6A982E0007535C /* TripRequestsView.swift */; };
 		7C5659632B6AABD60007535C /* BeforeProduction.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5659622B6AABD60007535C /* BeforeProduction.rtf */; };
-		7C5659662B6AB9A40007535C /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5659652B6AB9A40007535C /* WebSocketClient.swift */; };
+		7C5659662B6AB9A40007535C /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5659652B6AB9A40007535C /* WebSocketManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		7C56595F2B6A982E0007535C /* TripRequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRequestsView.swift; sourceTree = "<group>"; };
 		7C5659622B6AABD60007535C /* BeforeProduction.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = BeforeProduction.rtf; sourceTree = "<group>"; };
 		7C5659642B6AAC150007535C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		7C5659652B6AB9A40007535C /* WebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
+		7C5659652B6AB9A40007535C /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				7C56592C2B6A94470007535C /* HereWeGoDriverApp.swift */,
 				7C56592E2B6A94470007535C /* MainView.swift */,
 				7C5659352B6A94480007535C /* Persistence.swift */,
-				7C5659652B6AB9A40007535C /* WebSocketClient.swift */,
+				7C5659652B6AB9A40007535C /* WebSocketManager.swift */,
 				7C56595D2B6A97E00007535C /* Models.swift */,
 				7C56595F2B6A982E0007535C /* TripRequestsView.swift */,
 				7C5659302B6A94480007535C /* Assets.xcassets */,
@@ -302,7 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C5659602B6A982E0007535C /* TripRequestsView.swift in Sources */,
-				7C5659662B6AB9A40007535C /* WebSocketClient.swift in Sources */,
+				7C5659662B6AB9A40007535C /* WebSocketManager.swift in Sources */,
 				7C5659362B6A94480007535C /* Persistence.swift in Sources */,
 				7C5659392B6A94480007535C /* HereWeGoDriver.xcdatamodeld in Sources */,
 				7C56595E2B6A97E00007535C /* Models.swift in Sources */,
@@ -480,7 +480,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,7 +511,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
